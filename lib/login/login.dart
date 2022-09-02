@@ -7,6 +7,7 @@ class LoginApp extends StatelessWidget {
   Widget LoginAp(BuildContext context) {
     return Container(
         padding: EdgeInsets.fromLTRB(32, 32, 32, 30),
+        color: Color.fromRGBO(249, 161, 30, 1),
         child: ElevatedButton(
           child: Text('SIGN IN'),
           onPressed: () {
@@ -20,6 +21,7 @@ class LoginApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
+        color: Color.fromARGB(255, 103, 249, 30),
         child: ListView(
           children: [Text('Welcome to Bythink'), LoginAp(context)],
         ),
