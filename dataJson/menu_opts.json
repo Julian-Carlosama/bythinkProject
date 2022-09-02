@@ -1,0 +1,65 @@
+{
+    "nameApp" : "Components",
+    "mechanic": [
+        {
+            "rout"   : "automotive",
+            "icon"    :  "time_to_leave",
+            "nameText": "Automoviles"
+        },
+        {
+            "rout"   : "motorcycle",
+            "icon"    : "two_wheeler",
+            "nameText": "Motocicletas"
+        },
+        {
+            "rout"   : "refrigerators",
+            "icon"    : "kitchen",
+            "nameText": "Lavadoras y neveras"
+        },
+        {
+            "rout"   : "bike",
+            "icon"    : "pedal_bike",
+            "nameText": "Bicicletas"
+        },
+        {
+            "rout"   : "industrial machines",
+            "icon"    : "precision_manufacturing",
+            "nameText": "Maquinas industriales"
+        }
+    ],
+    "lockersmith" : [
+        {
+            "rout" : "alert",
+            "icon" : "add_alert",
+            "nameText": "Lockersmith"
+        },
+        {
+            "rout" : "avatar",
+            "icon" : "accessibility",
+            "nameText": "Avatars"
+        },
+        {
+            "rout" : "card",
+            "icon" : "folder_open",
+            "nameText": "Cards - Tarjetas"
+        }
+    ],
+    
+    "electrical": [
+        {
+            "rout"   : "automotive",
+            "icon"  : "pedal_bike",
+            "nameText" : "Automotriz"
+        },
+        {
+            "rout"   : "Domestic",
+            "icon"  : "precision_manufacturing",
+            "nameText" : "Residencial"
+        },
+        {
+            "rout"   : "industry",
+            "icon"  : "kitchen",
+            "nameText" : "Industrial"
+        }
+    ]
+}
