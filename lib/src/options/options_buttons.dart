@@ -24,15 +24,14 @@ class OptionsButtoms extends StatelessWidget {
                     size: 50,
                   ),
                   //color: Colors.white,
-                  onPressed: () =>
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => MechanicSection(),
-                        )),
+                  onPressed: () => Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => MechanicSection(),
+                      )),
                 ),
                 const Text(
-                  'Mechanic',
+                  'Mechanico',
                   //'Mecánico',
                   textAlign: TextAlign.center,
                   style: TextStyle(

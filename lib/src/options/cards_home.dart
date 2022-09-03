@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 
 class CardHome extends StatelessWidget {
@@ -25,7 +27,11 @@ class CardHome extends StatelessWidget {
                 ButtonBar(
                   alignment: MainAxisAlignment.start,
                   children: [
-                    FlatButton(
+                    ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        primary: Colors.white, // background
+                        onPrimary: Colors.green, // foreground
+                      ),
                       child: Text(
                         //'Mechanic',
                         'Mecanico',
@@ -48,7 +54,7 @@ class CardHome extends StatelessWidget {
                 ButtonBar(
                   alignment: MainAxisAlignment.center,
                   children: [
-                    FlatButton(
+                    ElevatedButton(
                       child: Text(
                         //'Request a service',
                         'Solicitar servicio',
@@ -76,7 +82,7 @@ class CardHome extends StatelessWidget {
                 ButtonBar(
                   alignment: MainAxisAlignment.start,
                   children: [
-                    FlatButton(
+                    ElevatedButton(
                       child: Text(
                         'Cerrajero',
                         style: TextStyle(
@@ -94,7 +100,7 @@ class CardHome extends StatelessWidget {
                 ButtonBar(
                   alignment: MainAxisAlignment.center,
                   children: [
-                    FlatButton(
+                    ElevatedButton(
                       child: Text(
                         'Solicitar servicio',
                         style: TextStyle(color: Colors.black),
@@ -119,7 +125,7 @@ class CardHome extends StatelessWidget {
                 ButtonBar(
                   alignment: MainAxisAlignment.start,
                   children: [
-                    FlatButton(
+                    ElevatedButton(
                       child: Text(
                         //'Plumber',
                         'Plomero',
@@ -138,7 +144,7 @@ class CardHome extends StatelessWidget {
                 ButtonBar(
                   alignment: MainAxisAlignment.center,
                   children: [
-                    FlatButton(
+                    ElevatedButton(
                       child: Text(
                         //'Request a service',
                         'Solicitar servicio',
@@ -164,7 +170,7 @@ class CardHome extends StatelessWidget {
                 ButtonBar(
                   alignment: MainAxisAlignment.start,
                   children: [
-                    FlatButton(
+                    ElevatedButton(
                       child: Text(
                         //'Builder',
                         'Constructor',
@@ -183,7 +189,7 @@ class CardHome extends StatelessWidget {
                 ButtonBar(
                   alignment: MainAxisAlignment.center,
                   children: [
-                    FlatButton(
+                    ElevatedButton(
                       child: Text(
                         //'Request a service',
                         'Solicitar servicio',
@@ -209,7 +215,7 @@ class CardHome extends StatelessWidget {
                 ButtonBar(
                   alignment: MainAxisAlignment.start,
                   children: [
-                    FlatButton(
+                    ElevatedButton(
                       child: Text(
                         //'Electrical technician',
                         'Electricista',
@@ -228,7 +234,7 @@ class CardHome extends StatelessWidget {
                 ButtonBar(
                   alignment: MainAxisAlignment.center,
                   children: [
-                    FlatButton(
+                    ElevatedButton(
                       child: Text(
                         //'Request a service',
                         'Solicitar servicio',
@@ -254,7 +260,7 @@ class CardHome extends StatelessWidget {
                 ButtonBar(
                   alignment: MainAxisAlignment.start,
                   children: [
-                    FlatButton(
+                    ElevatedButton(
                       child: Text(
                         'Carpintero',
                         style: TextStyle(
@@ -272,7 +278,7 @@ class CardHome extends StatelessWidget {
                 ButtonBar(
                   alignment: MainAxisAlignment.center,
                   children: [
-                    FlatButton(
+                    ElevatedButton(
                       child: Text(
                         'Request a service',
                         style: TextStyle(color: Colors.black),
