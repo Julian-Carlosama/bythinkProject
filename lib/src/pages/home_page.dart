@@ -26,7 +26,7 @@ class HomePage extends StatelessWidget {
 				toolbarHeight: 80,
 				flexibleSpace: Container(color: Colors.black),
 				title: Text(
-					'Bythink...',
+					'ManuExpert',
 					style: TextStyle(fontSize: 29, fontFamily: 'Lobster'),
 				),
 				automaticallyImplyLeading: false,
@@ -45,8 +45,8 @@ class HomePage extends StatelessWidget {
 				children: [
 					Container(
 						child: Text(
-							//'Do you have an emergency?',
-							'¿Tienes una emergencia?',
+							'Do you have an emergency?',
+							//'¿Tienes una emergencia?',
 							style: TextStyle(
 								fontSize: 20,
 								fontFamily: 'Releway',
@@ -76,8 +76,8 @@ class HomePage extends StatelessWidget {
 								Title(
 									color: Colors.black,
 									child: Text(
-										//'What does this app do?',
-										'¿Que puede hacer esta app por ti?',
+										'What does this app do?',
+										//'¿Que puede hacer esta app por ti?',
 										style: TextStyle(
 											fontSize: 20,
 											fontWeight: FontWeight.bold,
@@ -89,8 +89,8 @@ class HomePage extends StatelessWidget {
 									//decoration: BoxDecoration(color: Colors.red),
 									padding: EdgeInsets.only(left: 25, right: 25, top: 10),
 									child: Text(
-										//'You have a problem with your lock, car, pipe, etc; Search in this app for people willing to help you and much more.',
-										'Tienes un problema con tu cerradura, vehiculo, etc; Aquí podras encontrar profesionales que pueden ayudarte y mucho más.',
+										'You have a problem with your lock, car, pipe, etc; Search in this app for people willing to help you and much more.',
+										//'Tienes un problema con tu cerradura, vehiculo, etc; Aquí podras encontrar profesionales que pueden ayudarte y mucho más.',
 										style: TextStyle(
 											fontSize: 19,
 											//color: Colors.white
