@@ -31,7 +31,7 @@ class OptionsButtoms extends StatelessWidget {
                       )),
                 ),
                 const Text(
-                  'Mechanico',
+                  'Mechanic',
                   //'Mecánico',
                   textAlign: TextAlign.center,
                   style: TextStyle(
@@ -58,8 +58,8 @@ class OptionsButtoms extends StatelessWidget {
                   },
                 ),
                 const Text(
-                  //'Locksmith',
-                  'Cerrajero',
+                  'Locksmith',
+                  //'Cerrajero',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 12,
@@ -85,8 +85,8 @@ class OptionsButtoms extends StatelessWidget {
                   },
                 ),
                 const Text(
-                  //'Electrical',
-                  'Electricista',
+                  'Electrical',
+                  //'Electricista',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 12,
@@ -106,8 +106,8 @@ class OptionsButtoms extends StatelessWidget {
                   onPressed: () {},
                 ),
                 const Text(
-                  //'Carpenter',
-                  'Carpintero',
+                  'Carpenter',
+                  //'Carpintero',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 12,
@@ -149,7 +149,7 @@ class OptionsButtoms extends StatelessWidget {
                 ),
                 const Text(
                   //'Carpenter',
-                  'Belleza',
+                  'Beauty',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 12,
@@ -170,7 +170,7 @@ class OptionsButtoms extends StatelessWidget {
                 ),
                 const Text(
                   //'Carpenter',
-                  'Plomero',
+                  'Plumber',
                   textAlign: TextAlign.center,
                   style: TextStyle(fontSize: 12, color: Colors.white),
                 ),
@@ -187,8 +187,7 @@ class OptionsButtoms extends StatelessWidget {
                   onPressed: () {},
                 ),
                 const Text(
-                  //'Carpenter',
-                  'Mudanzas',
+                  'Removals',
                   textAlign: TextAlign.center,
                   style: TextStyle(fontSize: 12, color: Colors.white),
                 ),
@@ -206,7 +205,7 @@ class OptionsButtoms extends StatelessWidget {
                 ),
                 const Text(
                   //'Carpenter',
-                  'Otros',
+                  'Others',
                   textAlign: TextAlign.center,
                   style: TextStyle(fontSize: 12, color: Colors.white),
                 ),

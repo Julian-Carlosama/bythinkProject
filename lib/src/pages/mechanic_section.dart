@@ -24,8 +24,8 @@ class MechanicSection extends StatelessWidget {
         flexibleSpace: Container(color: Colors.black),
         // ignore: prefer_const_constructors
         title: Text(
-          //'Mechanic',
-          'Mecanicoss',
+          'Mechanic',
+          //'Mecanicoss',
           style: const TextStyle(
               fontSize: 22, fontWeight: FontWeight.bold, fontFamily: 'arial'),
         ),

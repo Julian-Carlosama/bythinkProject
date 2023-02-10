@@ -10,7 +10,7 @@ class AppBart extends StatelessWidget {
       flexibleSpace: Container(color: Colors.black),
       // ignore: prefer_const_constructors
       title: Text(
-        'Bythink',
+        'ManuExpert',
         style: const TextStyle(
             fontSize: 22, fontWeight: FontWeight.bold, fontFamily: 'arial'),
       ),
