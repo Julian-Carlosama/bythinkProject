@@ -33,8 +33,8 @@ class CardHome extends StatelessWidget {
                         onPrimary: Colors.green, // foreground
                       ),
                       child: Text(
-                        //'Mechanic',
-                        'Mecanico',
+                        'Mechanic',
+                        //'Mecanico',
                         style: TextStyle(
                             color: Colors.black,
                             fontSize: 20,
@@ -56,8 +56,8 @@ class CardHome extends StatelessWidget {
                   children: [
                     ElevatedButton(
                       child: Text(
-                        //'Request a service',
-                        'Solicitar servicio',
+                        'Request a service',
+                        //'Solicitar servicio',
                         style: TextStyle(color: Colors.black),
                       ),
                       onPressed: () {},
@@ -84,7 +84,8 @@ class CardHome extends StatelessWidget {
                   children: [
                     ElevatedButton(
                       child: Text(
-                        'Cerrajero',
+                        //'Cerrajero',
+                        'Lockersmith',
                         style: TextStyle(
                             color: Colors.black,
                             fontSize: 20,
@@ -102,7 +103,8 @@ class CardHome extends StatelessWidget {
                   children: [
                     ElevatedButton(
                       child: Text(
-                        'Solicitar servicio',
+                        //'Solicitar servicio',
+                        'Request a service',
                         style: TextStyle(color: Colors.black),
                       ),
                       onPressed: () {},
@@ -127,8 +129,8 @@ class CardHome extends StatelessWidget {
                   children: [
                     ElevatedButton(
                       child: Text(
-                        //'Plumber',
-                        'Plomero',
+                        'Plumber',
+                        //'Plomero',
                         style: TextStyle(
                             color: Colors.black,
                             fontSize: 20,
@@ -146,8 +148,8 @@ class CardHome extends StatelessWidget {
                   children: [
                     ElevatedButton(
                       child: Text(
-                        //'Request a service',
-                        'Solicitar servicio',
+                        'Request a service',
+                        //'Solicitar servicio',
                         style: TextStyle(color: Colors.black),
                       ),
                       onPressed: () {},
@@ -172,8 +174,8 @@ class CardHome extends StatelessWidget {
                   children: [
                     ElevatedButton(
                       child: Text(
-                        //'Builder',
-                        'Constructor',
+                        'Builder',
+                        //'Constructor',
                         style: TextStyle(
                             color: Colors.black,
                             fontSize: 20,
@@ -191,8 +193,8 @@ class CardHome extends StatelessWidget {
                   children: [
                     ElevatedButton(
                       child: Text(
-                        //'Request a service',
-                        'Solicitar servicio',
+                        'Request a service',
+                        //'Solicitar servicio',
                         style: TextStyle(color: Colors.black),
                       ),
                       onPressed: () {},
@@ -217,8 +219,8 @@ class CardHome extends StatelessWidget {
                   children: [
                     ElevatedButton(
                       child: Text(
-                        //'Electrical technician',
-                        'Electricista',
+                        'Electrical technician',
+                        //'Electricista',
                         style: TextStyle(
                             color: Colors.black,
                             fontSize: 20,
@@ -236,8 +238,8 @@ class CardHome extends StatelessWidget {
                   children: [
                     ElevatedButton(
                       child: Text(
-                        //'Request a service',
-                        'Solicitar servicio',
+                        'Request a service',
+                        //'Solicitar servicio',
                         style: TextStyle(color: Colors.black),
                       ),
                       onPressed: () {},
@@ -262,7 +264,8 @@ class CardHome extends StatelessWidget {
                   children: [
                     ElevatedButton(
                       child: Text(
-                        'Carpintero',
+                        //'Carpintero',
+                        'Carpenter',
                         style: TextStyle(
                             color: Colors.black,
                             fontSize: 20,
