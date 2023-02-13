@@ -4,27 +4,27 @@
         {
             "rout"   : "automotive",
             "icon"    :  "time_to_leave",
-            "nameText": "Automoviles"
+            "nameText": "Car"
         },
         {
             "rout"   : "motorcycle",
             "icon"    : "two_wheeler",
-            "nameText": "Motocicletas"
+            "nameText": "Motorcycle"
         },
         {
             "rout"   : "refrigerators",
             "icon"    : "kitchen",
-            "nameText": "Lavadoras y neveras"
+            "nameText": "Refrigerators"
         },
         {
             "rout"   : "bike",
             "icon"    : "pedal_bike",
-            "nameText": "Bicicletas"
+            "nameText": "Bikes"
         },
         {
             "rout"   : "industrial machines",
             "icon"    : "precision_manufacturing",
-            "nameText": "Maquinas industriales"
+            "nameText": "Industrial machines"
         }
     ],
     "lockersmith" : [
@@ -36,12 +36,12 @@
         {
             "rout" : "avatar",
             "icon" : "accessibility",
-            "nameText": "Avatars"
+            "nameText": "Locker"
         },
         {
             "rout" : "card",
             "icon" : "folder_open",
-            "nameText": "Cards - Tarjetas"
+            "nameText": "Keys"
         }
     ],
     
@@ -49,17 +49,17 @@
         {
             "rout"   : "automotive",
             "icon"  : "pedal_bike",
-            "nameText" : "Automotriz"
+            "nameText" : "Automotive"
         },
         {
             "rout"   : "Domestic",
             "icon"  : "precision_manufacturing",
-            "nameText" : "Residencial"
+            "nameText" : "Industry"
         },
         {
             "rout"   : "industry",
             "icon"  : "kitchen",
-            "nameText" : "Industrial"
+            "nameText" : "Domestic"
         }
     ]
 }
