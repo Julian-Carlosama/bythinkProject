@@ -49,10 +49,7 @@ class LoginApp extends StatelessWidget {
               child: Text(
                 'ManuExpert',
                 style: TextStyle(
-                  color: Colors.white,
-                  fontFamily: 'Lobster',
-                  fontSize: 30
-                ),
+                    color: Colors.white, fontFamily: 'Lobster', fontSize: 30),
               ),
             ),
             SizedBox(
@@ -70,10 +67,7 @@ class LoginApp extends StatelessWidget {
             Center(
               child: Text(
                 'Forget password?',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 20
-                ),
+                style: TextStyle(color: Colors.white, fontSize: 20),
               ),
             )
           ],
@@ -82,37 +76,39 @@ class LoginApp extends StatelessWidget {
     );
   }
 
-  Widget TextBox( String label) {
+  Widget TextBox(String label) {
     return Column(
       children: [
-        TextField(
-          //controller: controller,
-          cursorColor: Color.fromARGB(255, 21, 21, 21),
-          style: TextStyle(
-            color: Colors.black,
-          ),
-          decoration: InputDecoration(
+        SizedBox(
+          width: 320,
+          child: TextField(
+            cursorColor: Color.fromARGB(255, 21, 21, 21),
+            /*style: TextStyle(
+              color: Colors.black,
+            ),*/
+            decoration: InputDecoration(
               filled: true,
               fillColor: Colors.white,
               labelText: label,
-              /*border: OutlineInputBorder(
-                borderSide: BorderSide.none,
-                borderRadius: BorderRadius.circular(30),
-              )*/
-              hintStyle: TextStyle(
+              labelStyle: TextStyle(
                 color: Colors.grey.shade500,
                 fontSize: 18,
-                fontWeight: FontWeight.w500
+                fontWeight: FontWeight.w500 
               ),
-              border: OutlineInputBorder(
+              enabledBorder: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(30),
-                borderSide: BorderSide(
-                  color: Colors.green,
-                  width: 5
-                )
+                borderSide: BorderSide.none,
               ),
-              contentPadding: EdgeInsets.symmetric(vertical: 10)
+              focusedBorder: OutlineInputBorder(
+                borderSide: BorderSide(
+                  width: 3,
+                  color: Colors.black,
+                ),
+                borderRadius: BorderRadius.circular(30),
+              ),
+              contentPadding: EdgeInsets.all(10.0),
             ),
+          )
         )
       ],
     );
