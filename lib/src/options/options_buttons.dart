@@ -148,7 +148,6 @@ class OptionsButtoms extends StatelessWidget {
                   onPressed: () {},
                 ),
                 const Text(
-                  //'Carpenter',
                   'Beauty',
                   textAlign: TextAlign.center,
                   style: TextStyle(
@@ -165,14 +164,17 @@ class OptionsButtoms extends StatelessWidget {
                 IconButton(
                   iconSize: 50,
                   icon: const Icon(Icons.plumbing, size: 50),
-                  color: Colors.white,
+                  //color: Colors.white,
                   onPressed: () {},
                 ),
                 const Text(
                   //'Carpenter',
                   'Plumber',
                   textAlign: TextAlign.center,
-                  style: TextStyle(fontSize: 12, color: Colors.white),
+                  style: TextStyle(
+                    fontSize: 12, 
+                    //color: Colors.white
+                  ),
                 ),
               ],
             ),
@@ -183,13 +185,16 @@ class OptionsButtoms extends StatelessWidget {
                 IconButton(
                   iconSize: 50,
                   icon: const Icon(Icons.local_shipping, size: 50),
-                  color: Colors.white,
+                  //color: Colors.white,
                   onPressed: () {},
                 ),
                 const Text(
                   'Removals',
                   textAlign: TextAlign.center,
-                  style: TextStyle(fontSize: 12, color: Colors.white),
+                  style: TextStyle(
+                    fontSize: 12, 
+                    //color: Colors.white
+                  ),
                 ),
               ],
             ),
@@ -200,14 +205,16 @@ class OptionsButtoms extends StatelessWidget {
                 IconButton(
                   iconSize: 50,
                   icon: const Icon(Icons.question_mark, size: 50),
-                  color: Colors.white,
+                  //color: Colors.black,
                   onPressed: () {},
                 ),
                 const Text(
-                  //'Carpenter',
                   'Others',
                   textAlign: TextAlign.center,
-                  style: TextStyle(fontSize: 12, color: Colors.white),
+                  style: TextStyle(
+                    fontSize: 12, 
+                    //color: Colors.black
+                  ),
                 ),
               ],
             ),
