@@ -58,11 +58,11 @@ class LoginApp extends StatelessWidget {
             SizedBox(
               height: 100,
             ),
-            TextBox(),
+            TextBox("Enter your name"),
             SizedBox(
               height: 10,
             ),
-            TextBox(),
+            TextBox("Enter your password"),
             LoginAp(context),
             SizedBox(
               height: 100,
@@ -82,7 +82,7 @@ class LoginApp extends StatelessWidget {
     );
   }
 
-  Widget TextBox() {
+  Widget TextBox( String label) {
     return Column(
       children: [
         TextField(
@@ -94,7 +94,7 @@ class LoginApp extends StatelessWidget {
           decoration: InputDecoration(
               filled: true,
               fillColor: Colors.white,
-              labelText: 'Enter your name',
+              labelText: label,
               /*border: OutlineInputBorder(
                 borderSide: BorderSide.none,
                 borderRadius: BorderRadius.circular(30),
