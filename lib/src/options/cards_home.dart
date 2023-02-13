@@ -15,7 +15,8 @@ class CardHome extends StatelessWidget {
           ),
           child: Card(
             //color: Color(0xFFFDADADA),
-            color: Color(0xFFFE9E9E9),
+            //color: Color(0xFFFE9E9E9),
+            color: null,
             shape:
                 RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
             elevation: 5,
@@ -29,8 +30,8 @@ class CardHome extends StatelessWidget {
                   children: [
                     ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                        primary: Colors.white, // background
-                        onPrimary: Colors.green, // foreground
+                        primary: Colors.white,
+                        //primary: Color(0xFFFE9E9E9), // background
                       ),
                       child: Text(
                         'Mechanic',
@@ -55,10 +56,15 @@ class CardHome extends StatelessWidget {
                   alignment: MainAxisAlignment.center,
                   children: [
                     ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        primary: Color.fromARGB(255, 0, 0, 0), // background
+                        onPrimary: Colors.white,
+                        shape: StadiumBorder(), // foreground
+                      ),
                       child: Text(
                         'Request a service',
                         //'Solicitar servicio',
-                        style: TextStyle(color: Colors.black),
+                        style: TextStyle(color: Color.fromARGB(255, 255, 255, 255)),
                       ),
                       onPressed: () {},
                     ),
@@ -83,6 +89,10 @@ class CardHome extends StatelessWidget {
                   alignment: MainAxisAlignment.start,
                   children: [
                     ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        primary: Colors.white, // background
+                        //onPrimary: Colors.white, // foreground
+                      ),
                       child: Text(
                         //'Cerrajero',
                         'Lockersmith',
@@ -102,10 +112,15 @@ class CardHome extends StatelessWidget {
                   alignment: MainAxisAlignment.center,
                   children: [
                     ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        primary: Color.fromARGB(255, 0, 0, 0), // background
+                        onPrimary: Colors.white,
+                        shape: StadiumBorder(), // foreground
+                      ),
                       child: Text(
                         //'Solicitar servicio',
                         'Request a service',
-                        style: TextStyle(color: Colors.black),
+                        style: TextStyle(color: Color.fromARGB(255, 255, 255, 255)),
                       ),
                       onPressed: () {},
                     ),
@@ -128,6 +143,10 @@ class CardHome extends StatelessWidget {
                   alignment: MainAxisAlignment.start,
                   children: [
                     ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        primary: Colors.white, // background
+                        //onPrimary: Colors.white, // foreground
+                      ),
                       child: Text(
                         'Plumber',
                         //'Plomero',
@@ -147,10 +166,15 @@ class CardHome extends StatelessWidget {
                   alignment: MainAxisAlignment.center,
                   children: [
                     ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        primary: Color.fromARGB(255, 0, 0, 0), // background
+                        onPrimary: Colors.white,
+                        shape: StadiumBorder(), // foreground
+                      ),
                       child: Text(
                         'Request a service',
                         //'Solicitar servicio',
-                        style: TextStyle(color: Colors.black),
+                        style: TextStyle(color: Color.fromARGB(255, 255, 255, 255)),
                       ),
                       onPressed: () {},
                     ),
@@ -173,6 +197,10 @@ class CardHome extends StatelessWidget {
                   alignment: MainAxisAlignment.start,
                   children: [
                     ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        primary: Colors.white, // background
+                        //onPrimary: Colors.white, // foreground
+                      ),
                       child: Text(
                         'Builder',
                         //'Constructor',
@@ -192,10 +220,15 @@ class CardHome extends StatelessWidget {
                   alignment: MainAxisAlignment.center,
                   children: [
                     ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        primary: Color.fromARGB(255, 0, 0, 0), // background
+                        onPrimary: Colors.white,
+                        shape: StadiumBorder(), // foreground
+                      ),
                       child: Text(
                         'Request a service',
                         //'Solicitar servicio',
-                        style: TextStyle(color: Colors.black),
+                        style: TextStyle(color: Color.fromARGB(255, 255, 255, 255)),
                       ),
                       onPressed: () {},
                     ),
@@ -218,6 +251,10 @@ class CardHome extends StatelessWidget {
                   alignment: MainAxisAlignment.start,
                   children: [
                     ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        primary: Colors.white, // background
+                        //onPrimary: Colors.white, // foreground
+                      ),
                       child: Text(
                         'Electrical technician',
                         //'Electricista',
@@ -237,10 +274,15 @@ class CardHome extends StatelessWidget {
                   alignment: MainAxisAlignment.center,
                   children: [
                     ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        primary: Color.fromARGB(255, 0, 0, 0), // background
+                        onPrimary: Colors.white,
+                        shape: StadiumBorder(), // foreground
+                      ),
                       child: Text(
                         'Request a service',
                         //'Solicitar servicio',
-                        style: TextStyle(color: Colors.black),
+                        style: TextStyle(color: Color.fromARGB(255, 255, 255, 255)),
                       ),
                       onPressed: () {},
                     ),
@@ -263,6 +305,10 @@ class CardHome extends StatelessWidget {
                   alignment: MainAxisAlignment.start,
                   children: [
                     ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        primary: Colors.white, // background
+                        //onPrimary: Colors.white, // foreground
+                      ),
                       child: Text(
                         //'Carpintero',
                         'Carpenter',
@@ -282,9 +328,14 @@ class CardHome extends StatelessWidget {
                   alignment: MainAxisAlignment.center,
                   children: [
                     ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        primary: Color.fromARGB(255, 0, 0, 0), // background
+                        onPrimary: Colors.white,
+                        shape: StadiumBorder(), // foreground
+                      ),
                       child: Text(
                         'Request a service',
-                        style: TextStyle(color: Colors.black),
+                        style: TextStyle(color: Color.fromARGB(255, 255, 255, 255)),
                       ),
                       onPressed: () {},
                     ),
