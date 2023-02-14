@@ -1,12 +1,13 @@
+// ignore_for_file: prefer_const_constructors
 //import 'package:bythink/src/options/categories.dart';
-import 'package:bythink/src/pages/mechanic/carScreen.dart';
+import 'package:bythink/src/pages/mechanic/car_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:bythink/src/providers/main_provides.dart';
 import 'package:bythink/src/utils/icon_string.dart';
 
 // Class that displays the items that make up mechanic
 class MechanicSection extends StatelessWidget {
-  MechanicSection({Key? key}) : super(key: key);
+  const MechanicSection({Key? key}) : super(key: key);
 
   /*final options = [
     'Automotive',
@@ -22,7 +23,6 @@ class MechanicSection extends StatelessWidget {
       appBar: AppBar(
         toolbarHeight: 85,
         flexibleSpace: Container(color: Colors.black),
-        // ignore: prefer_const_constructors
         title: Text(
           'Mechanic',
           //'Mecanicoss',
@@ -45,7 +45,7 @@ class MechanicSection extends StatelessWidget {
       ),
       body: FutureBuilder(
         future: mainProvider.mech(),
-        initialData: [],
+        initialData: const [],
         builder: (context, AsyncSnapshot<List<dynamic>> snapshot) {
           return ListView(
             children: _listItems(snapshot.data),
@@ -109,8 +109,8 @@ class MechanicSection extends StatelessWidget {
   }*/
 }
 
-class newrout extends StatelessWidget {
-  const newrout({Key? key}) : super(key: key);
+class NewRoute extends StatelessWidget {
+  const NewRoute({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

@@ -1,3 +1,4 @@
+// ignore_for_file: prefer_const_constructors
 import 'package:flutter/material.dart';
 
 class Categories extends StatelessWidget {
@@ -7,10 +8,10 @@ class Categories extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ListView(children: [Column(children: _CreateItems())]);
+    return ListView(children: [Column(children: _createItems())]);
   }
 
-  List<Widget> _CreateItems() {
+  List<Widget> _createItems() {
     return options.map((item) {
       return Column(
         children: [

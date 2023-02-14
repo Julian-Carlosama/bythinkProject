@@ -1,3 +1,4 @@
+// ignore_for_file: prefer_const_constructors
 import 'package:bythink/src/providers/main_provides.dart';
 import 'package:bythink/src/utils/icon_string.dart';
 import 'package:flutter/material.dart';
@@ -12,7 +13,6 @@ class LocksmithSection extends StatelessWidget {
         appBar: AppBar(
           toolbarHeight: 85,
           flexibleSpace: Container(color: Colors.black),
-          // ignore: prefer_const_constructors
           title: Text(
             'Locksmith',
             style: const TextStyle(
@@ -33,7 +33,7 @@ class LocksmithSection extends StatelessWidget {
     return FutureBuilder(
       //future: mainProvider.uploadData(),
       future: mainProvider.lockS(),
-      initialData: [],
+      initialData: const [],
       builder: (context, AsyncSnapshot<List<dynamic>> snapshot) {
         return ListView(
           children: _listItems(snapshot.data),

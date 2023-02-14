@@ -1,8 +1,7 @@
+// ignore_for_file: prefer_const_constructors
 //import 'package:bythink/src/pages/dashboard.dart';
 import 'package:bythink/src/options/cards_home.dart';
-import 'package:bythink/src/pages/mechanic_section.dart';
 import 'package:bythink/src/options/options_buttons.dart';
-import 'package:bythink/src/providers/main_provides.dart';
 import 'package:flutter/material.dart';
 
 // Class that contain the features about of homepage
@@ -14,7 +13,7 @@ class HomePage extends StatelessWidget {
 	Widget build(BuildContext context) {
 		return Scaffold(
 			//backgroundColor: Color(0xFFFF8F8F8),
-			backgroundColor: Color(0xFFFE6E6E6),
+			backgroundColor: Color.fromARGB(255, 236, 236, 236),
 
 			/*title: 'Bythink Demo',
 				theme: ThemeData(
@@ -220,7 +219,6 @@ class HomePage extends StatelessWidget {
 		return Row(
 			children: [
 				IconButton(
-						// ignore: prefer_const_constructors
 						icon: Icon(
 							Icons.account_circle,
 							size: 30,

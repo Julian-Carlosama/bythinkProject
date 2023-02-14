@@ -1,3 +1,4 @@
+// ignore_for_file: prefer_const_constructors
 import 'package:bythink/src/pages/locksmith_section.dart';
 import 'package:bythink/src/pages/mechanic_section.dart';
 import 'package:bythink/src/pages/electrical_section.dart';

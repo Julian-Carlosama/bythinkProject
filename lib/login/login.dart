@@ -1,9 +1,11 @@
+// ignore_for_file: prefer_const_constructors
 import 'package:flutter/material.dart';
 
 class LoginApp extends StatelessWidget {
   const LoginApp({Key? key}) : super(key: key);
 
   // Princial widget that show the loging screeen
+  // ignore: non_constant_identifier_names
   Widget LoginAp(BuildContext context) {
     return Container(
         padding: EdgeInsets.fromLTRB(32, 32, 32, 30),
@@ -17,7 +19,7 @@ class LoginApp extends StatelessWidget {
             Navigator.pushNamed(context, 'homepage');
           },
           style: ElevatedButton.styleFrom(
-            primary: Colors.white,
+            backgroundColor: Colors.white,
             padding: EdgeInsets.symmetric(horizontal: 30, vertical: 10),
             shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(30.0)),
@@ -55,11 +57,11 @@ class LoginApp extends StatelessWidget {
             SizedBox(
               height: 100,
             ),
-            TextBox("Enter your name"),
+            textBox("Enter your name"),
             SizedBox(
               height: 10,
             ),
-            TextBox("Enter your password"),
+            textBox("Enter your password"),
             LoginAp(context),
             SizedBox(
               height: 100,
@@ -76,40 +78,38 @@ class LoginApp extends StatelessWidget {
     );
   }
 
-  Widget TextBox(String label) {
+  Widget textBox(String label) {
     return Column(
       children: [
         SizedBox(
-          width: 320,
-          child: TextField(
-            cursorColor: Color.fromARGB(255, 21, 21, 21),
-            /*style: TextStyle(
+            width: 320,
+            child: TextField(
+              cursorColor: Color.fromARGB(255, 21, 21, 21),
+              /*style: TextStyle(
               color: Colors.black,
             ),*/
-            decoration: InputDecoration(
-              filled: true,
-              fillColor: Colors.white,
-              labelText: label,
-              labelStyle: TextStyle(
-                color: Colors.grey.shade500,
-                fontSize: 18,
-                fontWeight: FontWeight.w500 
-              ),
-              enabledBorder: OutlineInputBorder(
-                borderRadius: BorderRadius.circular(30),
-                borderSide: BorderSide.none,
-              ),
-              focusedBorder: OutlineInputBorder(
-                borderSide: BorderSide(
-                  width: 3,
-                  color: Colors.black,
+              decoration: InputDecoration(
+                filled: true,
+                fillColor: Colors.white,
+                labelText: label,
+                labelStyle: TextStyle(
+                    color: Colors.grey.shade500,
+                    fontSize: 18,
+                    fontWeight: FontWeight.w500),
+                enabledBorder: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(30),
+                  borderSide: BorderSide.none,
                 ),
-                borderRadius: BorderRadius.circular(30),
+                focusedBorder: OutlineInputBorder(
+                  borderSide: BorderSide(
+                    width: 3,
+                    color: Colors.black,
+                  ),
+                  borderRadius: BorderRadius.circular(30),
+                ),
+                contentPadding: EdgeInsets.all(10.0),
               ),
-              contentPadding: EdgeInsets.all(10.0),
-            ),
-          )
-        )
+            ))
       ],
     );
   }

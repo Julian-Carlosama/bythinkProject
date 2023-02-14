@@ -1,5 +1,4 @@
 // ignore_for_file: deprecated_member_use
-
 import 'package:flutter/material.dart';
 
 class CardHome extends StatelessWidget {
@@ -10,7 +9,7 @@ class CardHome extends StatelessWidget {
     return Column(
       children: [
         Container(
-          decoration: BoxDecoration(
+          decoration: const BoxDecoration(
             color: null,
           ),
           child: Card(
@@ -20,10 +19,9 @@ class CardHome extends StatelessWidget {
             shape:
                 RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
             elevation: 5,
-            margin: EdgeInsets.all(5),
+            margin: const EdgeInsets.all(5),
             clipBehavior: Clip.antiAlias,
             child: Column(
-              // ignore: prefer_const_literals_to_create_immutables
               children: [
                 ButtonBar(
                   alignment: MainAxisAlignment.start,
@@ -33,7 +31,7 @@ class CardHome extends StatelessWidget {
                         primary: Colors.white,
                         //primary: Color(0xFFFE9E9E9), // background
                       ),
-                      child: Text(
+                      child: const Text(
                         'Mechanic',
                         //'Mecanico',
                         style: TextStyle(
@@ -57,11 +55,11 @@ class CardHome extends StatelessWidget {
                   children: [
                     ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                        primary: Color.fromARGB(255, 0, 0, 0), // background
+                        primary: const Color.fromARGB(255, 0, 0, 0), // background
                         onPrimary: Colors.white,
-                        shape: StadiumBorder(), // foreground
+                        shape: const StadiumBorder(), // foreground
                       ),
-                      child: Text(
+                      child: const Text(
                         'Request a service',
                         //'Solicitar servicio',
                         style: TextStyle(color: Color.fromARGB(255, 255, 255, 255)),
@@ -75,7 +73,7 @@ class CardHome extends StatelessWidget {
           ),
         ),
         Container(
-          decoration: BoxDecoration(
+          decoration: const BoxDecoration(
             color: null,
           ),
           child: Card(
@@ -93,7 +91,7 @@ class CardHome extends StatelessWidget {
                         primary: Colors.white, // background
                         //onPrimary: Colors.white, // foreground
                       ),
-                      child: Text(
+                      child: const Text(
                         //'Cerrajero',
                         'Lockersmith',
                         style: TextStyle(
@@ -105,7 +103,7 @@ class CardHome extends StatelessWidget {
                     ),
                   ],
                 ),
-                Image(
+                const Image(
                     image: NetworkImage(
                         'https://www.royalvt.com/wp-content/uploads/2021/04/RoyalGroup-SM-locksmith.jpg')),
                 ButtonBar(
@@ -113,11 +111,11 @@ class CardHome extends StatelessWidget {
                   children: [
                     ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                        primary: Color.fromARGB(255, 0, 0, 0), // background
+                        primary: const Color.fromARGB(255, 0, 0, 0), // background
                         onPrimary: Colors.white,
-                        shape: StadiumBorder(), // foreground
+                        shape: const StadiumBorder(), // foreground
                       ),
-                      child: Text(
+                      child: const Text(
                         //'Solicitar servicio',
                         'Request a service',
                         style: TextStyle(color: Color.fromARGB(255, 255, 255, 255)),
@@ -131,7 +129,7 @@ class CardHome extends StatelessWidget {
           ),
         ),
         Container(
-          decoration: BoxDecoration(
+          decoration: const BoxDecoration(
             color: null,
           ),
           child: Card(
@@ -147,7 +145,7 @@ class CardHome extends StatelessWidget {
                         primary: Colors.white, // background
                         //onPrimary: Colors.white, // foreground
                       ),
-                      child: Text(
+                      child: const Text(
                         'Plumber',
                         //'Plomero',
                         style: TextStyle(
@@ -159,7 +157,7 @@ class CardHome extends StatelessWidget {
                     ),
                   ],
                 ),
-                Image(
+                const Image(
                     image: NetworkImage(
                         'https://www.andresplomeria.top/wp-content/uploads/2018/12/o_1538000482_f8930aa9609a3126f9fd23cf9ad285f1-1024x494.jpg')),
                 ButtonBar(
@@ -167,11 +165,11 @@ class CardHome extends StatelessWidget {
                   children: [
                     ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                        primary: Color.fromARGB(255, 0, 0, 0), // background
+                        primary: const Color.fromARGB(255, 0, 0, 0), // background
                         onPrimary: Colors.white,
-                        shape: StadiumBorder(), // foreground
+                        shape: const StadiumBorder(), // foreground
                       ),
-                      child: Text(
+                      child: const Text(
                         'Request a service',
                         //'Solicitar servicio',
                         style: TextStyle(color: Color.fromARGB(255, 255, 255, 255)),
@@ -185,7 +183,7 @@ class CardHome extends StatelessWidget {
           ),
         ),
         Container(
-          decoration: BoxDecoration(
+          decoration: const BoxDecoration(
             color: null,
           ),
           child: Card(
@@ -201,7 +199,7 @@ class CardHome extends StatelessWidget {
                         primary: Colors.white, // background
                         //onPrimary: Colors.white, // foreground
                       ),
-                      child: Text(
+                      child: const Text(
                         'Builder',
                         //'Constructor',
                         style: TextStyle(
@@ -213,7 +211,7 @@ class CardHome extends StatelessWidget {
                     ),
                   ],
                 ),
-                Image(
+                const Image(
                     image: NetworkImage(
                         'https://www.serveisiconstruccio.com/media/crop/800/500/Listados/servicios/Albanileria.jpg')),
                 ButtonBar(
@@ -221,11 +219,11 @@ class CardHome extends StatelessWidget {
                   children: [
                     ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                        primary: Color.fromARGB(255, 0, 0, 0), // background
+                        primary: const Color.fromARGB(255, 0, 0, 0), // background
                         onPrimary: Colors.white,
-                        shape: StadiumBorder(), // foreground
+                        shape: const StadiumBorder(), // foreground
                       ),
-                      child: Text(
+                      child: const Text(
                         'Request a service',
                         //'Solicitar servicio',
                         style: TextStyle(color: Color.fromARGB(255, 255, 255, 255)),
@@ -239,7 +237,7 @@ class CardHome extends StatelessWidget {
           ),
         ),
         Container(
-          decoration: BoxDecoration(
+          decoration: const BoxDecoration(
             color: null,
           ),
           child: Card(
@@ -255,7 +253,7 @@ class CardHome extends StatelessWidget {
                         primary: Colors.white, // background
                         //onPrimary: Colors.white, // foreground
                       ),
-                      child: Text(
+                      child: const Text(
                         'Electrical technician',
                         //'Electricista',
                         style: TextStyle(
@@ -267,7 +265,7 @@ class CardHome extends StatelessWidget {
                     ),
                   ],
                 ),
-                Image(
+                const Image(
                     image: NetworkImage(
                         'https://www.tecsaqro.com.mx/wp-content/uploads/2019/09/habilidades_tecnico_electricista_4.jpg')),
                 ButtonBar(
@@ -275,11 +273,11 @@ class CardHome extends StatelessWidget {
                   children: [
                     ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                        primary: Color.fromARGB(255, 0, 0, 0), // background
+                        primary: const Color.fromARGB(255, 0, 0, 0), // background
                         onPrimary: Colors.white,
-                        shape: StadiumBorder(), // foreground
+                        shape: const StadiumBorder(), // foreground
                       ),
-                      child: Text(
+                      child: const Text(
                         'Request a service',
                         //'Solicitar servicio',
                         style: TextStyle(color: Color.fromARGB(255, 255, 255, 255)),
@@ -293,7 +291,7 @@ class CardHome extends StatelessWidget {
           ),
         ),
         Container(
-          decoration: BoxDecoration(
+          decoration: const BoxDecoration(
             color: null,
           ),
           child: Card(
@@ -309,7 +307,7 @@ class CardHome extends StatelessWidget {
                         primary: Colors.white, // background
                         //onPrimary: Colors.white, // foreground
                       ),
-                      child: Text(
+                      child: const Text(
                         //'Carpintero',
                         'Carpenter',
                         style: TextStyle(
@@ -321,7 +319,7 @@ class CardHome extends StatelessWidget {
                     ),
                   ],
                 ),
-                Image(
+                const Image(
                     image: NetworkImage(
                         'https://cdn2.hubspot.net/hubfs/3446990/Blog%20Images/Untitled%20design%20%288%29.png')),
                 ButtonBar(
@@ -329,11 +327,11 @@ class CardHome extends StatelessWidget {
                   children: [
                     ElevatedButton(
                       style: ElevatedButton.styleFrom(
-                        primary: Color.fromARGB(255, 0, 0, 0), // background
+                        primary: const Color.fromARGB(255, 0, 0, 0), // background
                         onPrimary: Colors.white,
-                        shape: StadiumBorder(), // foreground
+                        shape: const StadiumBorder(), // foreground
                       ),
-                      child: Text(
+                      child: const Text(
                         'Request a service',
                         style: TextStyle(color: Color.fromARGB(255, 255, 255, 255)),
                       ),

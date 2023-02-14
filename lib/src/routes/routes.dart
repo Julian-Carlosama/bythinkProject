@@ -1,3 +1,4 @@
+// ignore_for_file: prefer_const_constructors
 import 'package:bythink/login/login.dart';
 import 'package:bythink/src/pages/home_page.dart';
 import 'package:bythink/src/pages/locksmith_section.dart';
